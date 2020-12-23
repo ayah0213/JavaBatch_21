@@ -66,6 +66,9 @@ public class CollectionUtility {
         Collections.replaceAll(ch,'A','E');
         System.out.println(ch);
 
+        int frequncyofE = Collections.frequency(ch, 'E' );
+        System.out.println("frequncyofE = " + frequncyofE);
+
 
 
 
