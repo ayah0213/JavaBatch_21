@@ -1,8 +1,8 @@
 package day47_AbstractionIntro.Car;
 
 public class Tesla extends Car{
-    public Tesla(String brand, String model, String color, int year, double price) {
-        super(brand, model, color, year, price);
+    public Tesla( String model, String color, int year, double price) {
+        super("Tesla", model, color, year, price);
     }
 
     @Override
