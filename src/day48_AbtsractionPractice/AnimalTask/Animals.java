@@ -21,6 +21,7 @@ public abstract class Animals {
 
 
 
+
     // set toString to print out all data
     @Override
     public String toString() {
@@ -33,3 +34,5 @@ public abstract class Animals {
                 '}';
     }
 }
+
+

@@ -1,6 +1,6 @@
 package day42_Inheritance.AnimalTask;
 
- class Dog extends Animal {
+ public class Dog extends Animal {
 
      public Dog(String name, String color, String size,String breed,
                            char gender, int age) {
